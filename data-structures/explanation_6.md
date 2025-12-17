@@ -1,0 +1,1 @@
+Convert each linked list to a set, then compute union or intersection sets and build a result list. This removes duplicates naturally. Time: O(n + m) to build sets and iterate; Space: O(n + m) for sets and output.

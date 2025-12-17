@@ -1,0 +1,1 @@
+Built Huffman codes with a min-heap of nodes keyed by frequency; combine lowest two until one root remains, then assign bits via DFS. Encoding maps chars to codewords; decoding walks the tree per bit. Handles empty input and single-char strings. Time: O(n log k) to build (n chars, k unique), O(n) to encode/decode. Space: O(k) for tree and code map plus output size.

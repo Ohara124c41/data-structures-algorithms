@@ -1,0 +1,1 @@
+Recursive directory walk using os.path functions (no os.walk). For each entry, recurse into subdirectories and collect files matching the suffix. Time: O(n) over files/directories. Space: O(d) recursion depth plus output size.

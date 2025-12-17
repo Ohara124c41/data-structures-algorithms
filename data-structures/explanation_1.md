@@ -1,0 +1,1 @@
+Implemented LRU cache with OrderedDict for O(1) get/set and eviction. Capacity zero is handled as no-op. On get, the key is moved to the end to mark recent use; on set, existing key is refreshed, otherwise oldest is evicted. Time: O(1) per operation. Space: O(capacity).
