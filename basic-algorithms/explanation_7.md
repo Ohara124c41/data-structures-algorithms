@@ -1,0 +1,1 @@
+RouteTrie maps path parts to handlers. Router splits path on slashes, inserts/finds in the trie, and returns a not-found handler when absent; trailing slashes are normalized. Lookup and insert are O(k) where k is parts count. Space proportional to stored path parts.

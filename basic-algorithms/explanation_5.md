@@ -1,0 +1,1 @@
+Trie with children map and is_word flags. Insert walks/creates nodes; suffixes DFS collects endings below a node. Time: O(k) to insert a word of length k; suffixes O(total chars in subtree). Space: O(total nodes).

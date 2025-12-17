@@ -1,0 +1,1 @@
+Custom merge sort to avoid built-in sort, giving digits in descending order. Alternate digits into two numbers to maximize their sum. Time: O(n log n) for merge sort. Space: O(n) for merges plus output digits.
